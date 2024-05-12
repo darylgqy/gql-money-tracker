@@ -1,5 +1,5 @@
 import mongoose from 'mongoose';
-import userResolver from '../resolvers/user.resolver';
+import userResolver from '../resolvers/user.resolver.js';
 
 const userSchema = new mongoose.Schema({
     username: {
