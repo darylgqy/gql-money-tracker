@@ -15,6 +15,8 @@ const transactionTypeDef = `#graphql
     type Query {
         transactions: [Transaction!] #fetch all
         transaction(transactionId:ID!): Transaction #fetch just 1 transaction
+
+        # to-do => add category statistics query
     }
 
     type Mutation { #possible CRUD actions on the transactions
