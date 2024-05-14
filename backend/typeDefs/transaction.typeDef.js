@@ -20,7 +20,7 @@ const transactionTypeDef = `#graphql
     }
 
     type Mutation { #possible CRUD actions on the transactions
-        createTransactions(input: CreateTransactionInput!): Transaction
+        createTransaction(input: CreateTransactionInput!): Transaction
         updateTransaction(input: UpdateTransactionInput!): Transaction
         deleteTransaction(transactionId:ID!): Transaction!
     }
